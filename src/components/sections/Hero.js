@@ -68,8 +68,9 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                {
+                  "Send & receive money from friends, pay with your phone in shop and do a lot more."
+                }
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 {/* <ButtonGroup>
@@ -98,10 +99,10 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require("./../../assets/images/video-placeholder.jpg")}
+                src={require("./../../assets/images/screen3.png")}
                 alt="Hero"
                 width={896}
-                height={504}
+                height={200}
               />
             </a>
           </div>
