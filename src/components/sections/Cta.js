@@ -3,6 +3,9 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Input from "../elements/Input";
+import { Link } from "react-router-dom";
+import PayApp from "../../assets/files/PayApp.apk";
+import Image from "../elements/Image";
 
 const propTypes = {
   ...SectionProps.types,
@@ -46,10 +49,19 @@ const Cta = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">Enter email for early access</h3>
+            <h3 className="m-0">Try the prototype on Android</h3>
           </div>
           <div className="cta-action">
-            <Input
+            <Link to={PayApp} target="_blank" download>
+              <Image
+                src={require("../../assets/images/androidDownload.svg")}
+                alt="Open"
+                width={200}
+                height={200}
+              />
+            </Link>
+
+            {/* <Input
               id="newsletter"
               type="email"
               label="Subscribe"
@@ -63,7 +75,7 @@ const Cta = ({
                   fill="#376DF9"
                 />
               </svg>
-            </Input>
+            </Input> */}
           </div>
         </div>
       </div>

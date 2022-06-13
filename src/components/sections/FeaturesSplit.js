@@ -82,10 +82,12 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/screen4.png")}
+                  src={require("./../../assets/images/screen4.svg")}
                   alt="Features split 01"
-                  width={528}
-                  height={396}
+                  style={{
+                    width: "60%",
+                    height: "60%",
+                  }}
                 />
               </div>
             </div>
@@ -112,10 +114,12 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/screen5.png")}
+                  src={require("./../../assets/images/screen5.svg")}
                   alt="Features split 02"
-                  width={528}
-                  height={396}
+                  style={{
+                    width: "60%",
+                    height: "60%",
+                  }}
                 />
               </div>
             </div>
@@ -142,10 +146,12 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require("./../../assets/images/screen6.png")}
+                  src={require("./../../assets/images/screen6.svg")}
                   alt="Features split 03"
-                  width={528}
-                  height={396}
+                  style={{
+                    width: "60%",
+                    height: "60%",
+                  }}
                 />
               </div>
             </div>

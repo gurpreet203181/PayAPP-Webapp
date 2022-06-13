@@ -92,14 +92,14 @@ const Hero = ({
             data-reveal-delay="800"
           >
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://player.vimeo.com/video/719785854?h=4eb78483bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require("./../../assets/images/screen3.png")}
+                src={require("./../../assets/images/screen3.svg")}
                 alt="Hero"
                 width={896}
                 height={200}
@@ -110,7 +110,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://player.vimeo.com/video/719785854?h=4eb78483bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             videoTag="iframe"
           />
         </div>
