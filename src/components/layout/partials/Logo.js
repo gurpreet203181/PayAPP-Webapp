@@ -22,12 +22,12 @@ const Logo = ({ className, ...props }) => {
           <Image
             src={require("./../../../assets/images/logo.svg")}
             alt="Open"
-            width={32}
-            height={32}
+            width={200}
+            height={200}
           />
         </Link>
       </h1>
-      <span style={{ marginLeft: 10, color: "white" }}>PayApp</span>
+      {/* <span style={{ marginLeft: 10, color: "white" }}>PayApp</span> */}
     </div>
   );
 };

@@ -61,7 +61,7 @@ const Hero = ({
               data-reveal-delay="200"
             >
               Pay with
-              <span className="text-color-primary"> PayApp</span>
+              <span className="text-color-primary"> Zemmo Pay</span>
             </h1>
             <div className="container-xs">
               <p

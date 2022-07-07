@@ -49,9 +49,9 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "Start using PayApp today",
+    title: "Start using Zemmo Pay ",
     paragraph:
-      "Sending money wasn't as easy as it is today, PayApp is on a mission to make everyday payment quick and easy",
+      "Sending money wasn't as easy as it is today,  Zemmo Pay is on a mission to make everyday payment quick and easy",
   };
 
   return (
@@ -102,7 +102,7 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">Contactless pay in store</h3>
                 <p className="m-0">
-                  With PayApp you can pay in-store simply by approaching your
+                  With Zemmo Pay you can pay in-store simply by approaching your
                   phone at the treminal payment with your added card
                 </p>
               </div>

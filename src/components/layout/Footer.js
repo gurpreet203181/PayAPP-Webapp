@@ -38,7 +38,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <div className="footer-copyright">
-              @2022 PayApp. All right reserved
+              @2022 Zemmo. All right reserved
             </div>
           </div>
         </div>
